@@ -42,6 +42,10 @@ public class movement : MonoBehaviour
             Holding = 0;
             txt.text = "Holding: " + Holding.ToString();
         }
+        if (Score == 7)
+        {
+            SceneManager.LoadScene(2);
+        }
     }
         // Update is called once per frame
         void Update()

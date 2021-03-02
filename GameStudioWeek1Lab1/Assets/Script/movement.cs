@@ -14,9 +14,9 @@ public class movement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Tree"))
+        if (other.gameObject.tag == "Tree")
         {
-            
+            Debug.Log("1");
         }
     }
         // Update is called once per frame
@@ -29,6 +29,8 @@ public class movement : MonoBehaviour
         position.x += moveX * speed * Time.deltaTime;
         position.y += moveY * speed * Time.deltaTime;
         transform.position = position;
+
+        
     }
 }
 

@@ -12,6 +12,8 @@ public class movement : MonoBehaviour
     public Text txt1;
     public int Holding = 0;
     public int Score = 0;
+    public AudioSource ScoreSound;
+    public AudioSource HosSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +27,7 @@ public class movement : MonoBehaviour
         }
         if (other.gameObject.tag == "Solider" && Holding <3)
         {
-            
+                ScoreSound.Play();
                 Holding++;
                 Destroy(other.gameObject);
                 txt.text = "Holding: " + Holding.ToString();
@@ -37,6 +39,7 @@ public class movement : MonoBehaviour
         }
         if (other.gameObject.tag == "Hospital")
         {
+            HosSound.Play();
             Score = Score + Holding;
             txt1.text = "Score: " + Score.ToString();
             Holding = 0;

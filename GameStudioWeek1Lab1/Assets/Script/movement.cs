@@ -16,7 +16,7 @@ public class movement : MonoBehaviour
     {
         if (other.gameObject.tag == "Tree")
         {
-            Debug.Log("1");
+            SceneManager.LoadScene(1);
         }
     }
         // Update is called once per frame

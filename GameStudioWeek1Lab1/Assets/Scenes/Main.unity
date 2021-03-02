@@ -122,9 +122,10 @@ GameObject:
   m_Component:
   - component: {fileID: 36814826}
   - component: {fileID: 36814825}
+  - component: {fileID: 36814827}
   m_Layer: 0
   m_Name: Trees (2)
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,6 +192,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &36814827
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36814824}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.0068297386, y: 0.12918723}
+      - {x: -0.05485635, y: 0.07041841}
+      - {x: -0.059187174, y: 0.031952884}
+      - {x: -0.085365966, y: -0.0056896447}
+      - {x: -0.026667833, y: -0.009919072}
+      - {x: -0.02756157, y: -0.037642505}
+      - {x: 0.01455307, y: -0.039187193}
+      - {x: 0.016667843, y: -0.0052850246}
+      - {x: 0.0676425, y: -0.0063406467}
+      - {x: 0.03835845, y: 0.040110826}
+      - {x: 0.05234933, y: 0.046765495}
+      - {x: 0.038536217, y: 0.075123146}
 --- !u!1 &284784054
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,9 +397,10 @@ GameObject:
   m_Component:
   - component: {fileID: 450855254}
   - component: {fileID: 450855253}
+  - component: {fileID: 450855255}
   m_Layer: 0
   m_Name: Trees (4)
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -428,6 +467,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &450855255
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450855252}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.0024169923, y: 0.12786348}
+      - {x: -0.04793358, y: 0.06924727}
+      - {x: -0.07565687, y: 0.0015941382}
+      - {x: -0.020500565, y: -0.003004098}
+      - {x: -0.023800755, y: -0.033309985}
+      - {x: 0.01612916, y: -0.033450224}
+      - {x: 0.013450193, y: -0.0025572062}
+      - {x: 0.065656856, y: -0.00021038056}
+      - {x: 0.053520348, y: 0.030070115}
+      - {x: 0.029929876, y: 0.08042071}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,9 +752,10 @@ GameObject:
   m_Component:
   - component: {fileID: 872221526}
   - component: {fileID: 872221525}
+  - component: {fileID: 872221527}
   m_Layer: 0
   m_Name: Trees
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -747,6 +822,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &872221527
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872221524}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.021300603, y: 0.12632953}
+      - {x: -0.041416276, y: 0.09638739}
+      - {x: -0.06265906, y: 0.03644526}
+      - {x: -0.08130061, y: -0.0076301578}
+      - {x: -0.023890818, y: -0.004339886}
+      - {x: -0.03390182, y: -0.035086777}
+      - {x: 0.02999996, y: -0.036329556}
+      - {x: 0.020967675, y: -0.008743763}
+      - {x: 0.048031043, y: -0.009330344}
+      - {x: 0.08102929, y: -0.0030546903}
+      - {x: 0.0075723054, y: 0.122601226}
 --- !u!1 &1031292977
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,9 +868,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1031292979}
   - component: {fileID: 1031292978}
+  - component: {fileID: 1031292980}
   m_Layer: 0
   m_Name: Trees (5)
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -826,6 +938,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1031292980
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031292977}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.0036853792, y: 0.124211244}
+      - {x: -0.05026398, y: 0.058160674}
+      - {x: -0.06500111, y: 0.018686516}
+      - {x: -0.07421122, y: -0.002369669}
+      - {x: -0.020748043, y: -0.0027264208}
+      - {x: -0.026675893, y: -0.0312945}
+      - {x: 0.014996529, y: -0.035526972}
+      - {x: 0.016842747, y: -0.001317975}
+      - {x: 0.06421127, y: 0.00026179253}
+      - {x: 0.05500126, y: 0.017632602}
+      - {x: 0.027894307, y: 0.07816069}
 --- !u!1 &1257251240
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,9 +984,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1257251242}
   - component: {fileID: 1257251241}
+  - component: {fileID: 1257251243}
   m_Layer: 0
   m_Name: Trees (1)
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -905,6 +1054,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1257251243
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257251240}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.0009922385, y: 0.1330934}
+      - {x: -0.05204283, y: 0.070272416}
+      - {x: -0.06340026, y: 0.024652202}
+      - {x: -0.0817121, y: -0.010116649}
+      - {x: -0.026459217, y: -0.007898849}
+      - {x: -0.029610908, y: -0.034805477}
+      - {x: 0.014805484, y: -0.034805465}
+      - {x: 0.019646598, y: -0.011642373}
+      - {x: 0.07171203, y: -0.007898849}
+      - {x: 0.070330754, y: 0.005466974}
+      - {x: 0.032068085, y: 0.08497618}
 --- !u!1 &1308033170
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +1100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1308033172}
   - component: {fileID: 1308033171}
+  - component: {fileID: 1308033173}
   m_Layer: 0
   m_Name: Trees (6)
   m_TagString: Untagged
@@ -984,6 +1170,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1308033173
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308033170}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.0036854267, y: 0.12552698}
+      - {x: -0.048948336, y: 0.0765809}
+      - {x: -0.078158475, y: -0.0076280716}
+      - {x: -0.020266343, y: -0.0063168528}
+      - {x: -0.023159552, y: -0.03552695}
+      - {x: 0.0155269625, y: -0.038158417}
+      - {x: 0.014213467, y: -0.0036853969}
+      - {x: 0.0721056, y: -0.00473482}
+      - {x: 0.029209996, y: 0.08605506}
 --- !u!1 &1369445018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,6 +1611,8 @@ GameObject:
   - component: {fileID: 1604081244}
   - component: {fileID: 1604081243}
   - component: {fileID: 1604081246}
+  - component: {fileID: 1604081247}
+  - component: {fileID: 1604081248}
   m_Layer: 0
   m_Name: Helicopter1
   m_TagString: Untagged
@@ -1492,6 +1714,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!61 &1604081247
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604081242}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0030438267, y: 0.04058397}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.18810198, y: 0.12925524}
+  m_EdgeRadius: 0
+--- !u!50 &1604081248
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604081242}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1683644288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,9 +1850,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2134433645}
   - component: {fileID: 2134433644}
+  - component: {fileID: 2134433646}
   m_Layer: 0
   m_Name: Trees (3)
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1650,3 +1920,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2134433646
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134433643}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.0046236278, y: 0.12786348}
+      - {x: -0.047933605, y: 0.07476387}
+      - {x: -0.059037495, y: 0.05196903}
+      - {x: -0.08227678, y: -0.0028191567}
+      - {x: -0.02600739, y: -0.01345017}
+      - {x: -0.022487093, y: -0.040070128}
+      - {x: 0.018966794, y: -0.042276766}
+      - {x: 0.01821406, y: -0.010140205}
+      - {x: 0.07448341, y: -0.0041328194}
+      - {x: 0.026619935, y: 0.08924723}

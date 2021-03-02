@@ -239,9 +239,10 @@ GameObject:
   m_Component:
   - component: {fileID: 284784056}
   - component: {fileID: 284784055}
+  - component: {fileID: 284784057}
   m_Layer: 0
   m_Name: Solider (3)
-  m_TagString: Untagged
+  m_TagString: Solider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,6 +309,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &284784057
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284784054}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.034238767, y: 0.034238826}
+  m_Size: {x: 0.10886087, y: 0.13739316}
+  m_Direction: 0
 --- !u!1 &392768017
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,9 +335,10 @@ GameObject:
   m_Component:
   - component: {fileID: 392768019}
   - component: {fileID: 392768018}
+  - component: {fileID: 392768020}
   m_Layer: 0
   m_Name: Solider (4)
-  m_TagString: Untagged
+  m_TagString: Solider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -387,6 +405,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &392768020
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392768017}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.034238774, y: 0.039945174}
+  m_Size: {x: 0.10886087, y: 0.13739319}
+  m_Direction: 0
 --- !u!1 &450855252
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,9 +628,10 @@ GameObject:
   m_Component:
   - component: {fileID: 557312736}
   - component: {fileID: 557312735}
+  - component: {fileID: 557312737}
   m_Layer: 0
   m_Name: Solider (2)
-  m_TagString: Untagged
+  m_TagString: Solider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -663,6 +698,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &557312737
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557312734}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.03281212, y: 0.04279852}
+  m_Size: {x: 0.106007576, y: 0.15451251}
+  m_Direction: 0
 --- !u!1 &561498868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,9 +1265,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1369445020}
   - component: {fileID: 1369445019}
+  - component: {fileID: 1369445021}
   m_Layer: 0
   m_Name: Solider (5)
-  m_TagString: Untagged
+  m_TagString: Solider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1283,6 +1335,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1369445021
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369445018}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.03709203, y: 0.03994527}
+  m_Size: {x: 0.10886085, y: 0.14309959}
+  m_Direction: 0
 --- !u!1 &1488487413
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,9 +1361,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1488487415}
   - component: {fileID: 1488487414}
+  - component: {fileID: 1488487416}
   m_Layer: 0
   m_Name: Solider
-  m_TagString: Untagged
+  m_TagString: Solider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1362,6 +1431,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1488487416
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488487413}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.032812085, y: 0.03709196}
+  m_Size: {x: 0.11742079, y: 0.15451272}
+  m_Direction: 0
 --- !u!1 &1548576640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,9 +1457,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1548576642}
   - component: {fileID: 1548576641}
+  - component: {fileID: 1548576643}
   m_Layer: 0
   m_Name: Solider (7)
-  m_TagString: Untagged
+  m_TagString: Solider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1441,6 +1527,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1548576643
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548576640}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.037092067, y: 0.039945185}
+  m_Size: {x: 0.11456718, y: 0.14309959}
+  m_Direction: 0
 --- !u!1 &1582029666
 GameObject:
   m_ObjectHideFlags: 0
@@ -1530,9 +1632,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1600081457}
   - component: {fileID: 1600081456}
+  - component: {fileID: 1600081458}
   m_Layer: 0
   m_Name: Solider (1)
-  m_TagString: Untagged
+  m_TagString: Solider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1599,6 +1702,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1600081458
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600081455}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.034238756, y: 0.039945234}
+  m_Size: {x: 0.12027395, y: 0.14880617}
+  m_Direction: 0
 --- !u!1 &1604081242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,9 +1890,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1683644290}
   - component: {fileID: 1683644289}
+  - component: {fileID: 1683644291}
   m_Layer: 0
   m_Name: Solider (6)
-  m_TagString: Untagged
+  m_TagString: Solider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1840,6 +1960,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1683644291
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683644288}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.03709185, y: 0.039945282}
+  m_Size: {x: 0.11456752, y: 0.14880605}
+  m_Direction: 0
 --- !u!1 &2134433643
 GameObject:
   m_ObjectHideFlags: 0

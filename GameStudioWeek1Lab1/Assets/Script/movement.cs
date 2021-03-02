@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class movement : MonoBehaviour
 {
     public float speed = 5f;
+    public Text txt;
+    public int Holding = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +20,18 @@ public class movement : MonoBehaviour
         if (other.gameObject.tag == "Tree")
         {
             SceneManager.LoadScene(1);
+        }
+        if (other.gameObject.tag == "Solider" && Holding <3)
+        {
+            
+                Holding++;
+                Destroy(other.gameObject);
+                txt.text = "Holding: " + Holding.ToString();
+            
+        }
+        else if (other.gameObject.tag == "Solider" && Holding ==3)
+        {
+            Debug.Log("FULL");
         }
     }
         // Update is called once per frame

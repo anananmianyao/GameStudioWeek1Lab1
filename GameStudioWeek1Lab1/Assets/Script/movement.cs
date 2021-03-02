@@ -9,7 +9,9 @@ public class movement : MonoBehaviour
 {
     public float speed = 5f;
     public Text txt;
+    public Text txt1;
     public int Holding = 0;
+    public int Score = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,13 @@ public class movement : MonoBehaviour
         {
             Debug.Log("FULL");
         }
+        if (other.gameObject.tag == "Hospital")
+        {
+            Score = Score + Holding;
+            txt1.text = "Score: " + Score.ToString();
+            Holding = 0;
+            txt.text = "Holding: " + Holding.ToString();
+        }
     }
         // Update is called once per frame
         void Update()
@@ -45,7 +54,15 @@ public class movement : MonoBehaviour
         position.y += moveY * speed * Time.deltaTime;
         transform.position = position;
 
-        
+        RestartGame();
+    }
+
+    void RestartGame()
+    {
+        if (Input.GetKeyDown("r"))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }
 
